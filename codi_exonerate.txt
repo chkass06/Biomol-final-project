@@ -1,0 +1,961 @@
+#
+contig_25       exonerate:est2genome    gene    179     297     115     +       .       gene_id 24 ; sequence AL161540.2 ; gene_orientation . ; identity 64.10 ; similarity 64.10
+contig_25       exonerate:est2genome    exon    179     297     .       +       .       insertions 2 ; deletions 7 ; identity 64.10 ; similarity 64.10
+contig_25       exonerate:est2genome    similarity      179     297     115     +       .       alignment_id 24 ; Query AL161540.2 ; Align 179 172987 29 ; Align 208 173017 9 ; Align 217 173027 22 ; Align 241 173049 26 ; Align 267 173076 1 ; Align 268 173078 9 ; Align 277 173088 13 ; Align 290 173103 8
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 115
+   Query range: 3550 -> 3799
+  Target range: 1 -> 225
+
+ 3551 : GAAAAGATCTTTAGAGCGGA--TAAGATTGATTTGAAGAGTTTAGATAGA--CAGCTTGAGA : 3608
+        | ||| ||| | | |   ||  ||| | | || | || ||||  |||| |   || ||   |
+    2 : GTAAAAATCATAAAAATAGATGTAAAAATCATATTAAAAGTTATGATAAATTTAGTTTACTA :   63
+
+ 3609 : AACATCTGAGTAGGGTTTGGTCGAGGAACCTTGAGGTGAATCCTAAAGCTAAGGAAGAATGG : 3670
+         | | ||   | |      || ||  ||  ||   || ||  ||  |   || ||||| |  
+   64 : CATAACTCTTTTGAAAAATGTGGA--AAAATTATAGTAAA--CTGTATGAAAAGAAGATT-- :  120
+
+ 3671 : GAGATTGATTTGGCTAAGCTTGAAACAAGTAATGTTATTGCTCGTG-GTACTTATGGTACTG : 3731
+         |   | ||   | |||  || |||       | || | |  | || ||| |  ||||  | 
+  121 : -A---TCATACAGTTAAAATTAAAA-------TCTTTTAGAACATGTGTAGTGGTGGT--T- :  168
+
+ 3732 : TCTA--CAAAGGCATTTATGATGGACAAGATGTTGCAGGTAATAATAATAAACTAAATCCAA : 3791
+        ||||  |||||   ||| | ||  || |        | ||||||||||||||  ||||    
+  169 : TCTAACCAAAG---TTTTTAATTTACTA--------AAGTAATAATAATAAAAAAAATATTT :  218
+
+ 3792 : AATCTTGA : 3799
+        ||| ||||
+  219 : AAT-TTGA :  225
+
+vulgar: AL161540.2 3550 3799 + contig_25 1 225 + 115 M 20 20 G 0 2 M 28 28 G 0 2 M 34 34 G 2 0 M 14 14 G 2 0 M 18 18 G 3 0 M 1 1 G 3 0 M 20 20 G 7 0 M 14 14 G 0 1 M 11 11 G 2 0 M 1 1 G 1 0 M 4 4 G 0 2 M 5 5 G 3 0 M 14 14 G 8 0 M 29 29 G 1 0 M 4 4
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    2       225     115     +       .       gene_id 25 ; sequence AL161540.2 ; gene_orientation . ; identity 64.06 ; similarity 64.06
+contig_25       exonerate:est2genome    exon    2       225     .       +       .       insertions 7 ; deletions 32 ; identity 64.06 ; similarity 64.06
+contig_25       exonerate:est2genome    similarity      2       225     115     +       .       alignment_id 25 ; Query AL161540.2 ; Align 2 3551 20 ; Align 24 3571 28 ; Align 54 3599 34 ; Align 88 3635 14 ; Align 102 3651 18 ; Align 120 3672 1 ; Align 121 3676 20 ; Align 141 3703 14 ; Align 156 3717 11 ; Align 167 3730 1 ; Align 168 3732 4 ; Align 174 3736 5 ; Align 179 3744 14 ; Align 193 3766 29 ; Align 222 3796 4
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 112
+   Query range: 82082 -> 82289
+  Target range: 16 -> 209
+
+ 82083 : ATAATTTTATATATGTCTTTGTTAGTTCAAAAAAAAAAGTTTTTGTAATA-ATAACTCTT : 82141
+         |||  | || | ||    ||   ||||   |  | ||| ||  | || || |||||||||
+    17 : ATAGATGTAAAAATCATATTAAAAGTT---ATGATAAATTTAGTTTACTACATAACTCTT :    73
+
+ 82142 : TTGAAGTTTGTACGAACGTAAGAAAAAAAAAAAAGGAAAACTAGAATTAGTATGACCCAA : 82201
+         |||||   |||   ||  | |  |  |||    | |||||  || ||||  || ||    
+    74 : TTGAAAAATGTGGAAAAATTA-TAGTAAACTGTATGAAAAGAAG-ATTATCAT-ACAGTT :   130
+
+ 82202 : TAACTGAAGCTAGGTT-TACCAGGCCGTGTGATAAGAATATAAAGCCCAAATTAAAAATG : 82260
+          || | ||  |   ||  | || |    ||| |  |  | |||  || || ||   ||| 
+   131 : AAAATTAAAATCTTTTAGAACATGTGTAGTGGT-GGTTTCTAA--CCAAAGTTTTTAAT- :   187
+
+ 82261 : GGTCTAACCTAAAGGCCCAATAACTGAAA : 82289
+           | ||  ||||||    ||||| | |||
+   188 : --T-TA--CTAAAGTAATAATAA-TAAAA :   209
+
+vulgar: AL161540.2 82082 82289 + contig_25 16 209 + 112 M 27 27 G 3 0 M 20 20 G 0 1 M 30 30 G 1 0 M 22 22 G 1 0 M 8 8 G 1 0 M 22 22 G 0 1 M 16 16 G 1 0 M 9 9 G 2 0 M 14 14 G 3 0 M 1 1 G 1 0 M 2 2 G 2 0 M 15 15 G 1 0 M 5 5
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    17      209     112     +       .       gene_id 26 ; sequence AL161540.2 ; gene_orientation . ; identity 60.73 ; similarity 60.73
+contig_25       exonerate:est2genome    exon    17      209     .       +       .       insertions 2 ; deletions 16 ; identity 60.73 ; similarity 60.73
+contig_25       exonerate:est2genome    similarity      17      209     112     +       .       alignment_id 26 ; Query AL161540.2 ; Align 17 82083 27 ; Align 44 82113 20 ; Align 65 82133 30 ; Align 95 82164 22 ; Align 117 82187 8 ; Align 125 82196 22 ; Align 148 82218 16 ; Align 164 82235 9 ; Align 173 82246 14 ; Align 187 82263 1 ; Align 188 82265 2 ; Align 190 82269 15 ; Align 205 82285 5
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 111
+   Query range: 104412 -> 104574
+  Target range: 809 -> 959
+
+ 104413 : GAACATAATAGTTTGTTCTCCTTAATTCAAGACAGTTGACCAAAAATGCTTTTTTG-G : 104469
+          |||  |  |||| | |||   | |||||       ||  |  || || | ||   |  
+    810 : GAATTTTGTAGTCTCTTCATTTGAATTCTCAGGTTTTCTCTTAAGATACATTAAAGTC :    867
+
+ 104470 : AAAGACTTTTATGCTGATAATCAATCAAATAGATTCAGTCAACTTATATACATATAAT : 104527
+             | |||||||||||||| | ||| ||  || ||||||    | |   | || | | 
+    868 : TCTGTCTTTTATGCTGATACT-AATGAA--AG-TTCAGTTCTTTCACTGAAATTTTAG :    921
+
+ 104528 : AATACAGTTGATTTTTTTAGCAATTGACAAAAAGAATATGTT-TTTCT : 104574
+          ||  |||   | |||| || |  |  || | |||  |||||| | |||
+    922 : AA-CCAG--AACTTTTCTA-C--T--ACTAGAAG--TATGTTGTCTCT :    959
+
+vulgar: AL161540.2 104412 104574 + contig_25 809 959 + 111 M 56 56 G 0 1 M 22 22 G 1 0 M 6 6 G 2 0 M 2 2 G 1 0 M 27 27 G 1 0 M 4 4 G 2 0 M 10 10 G 1 0 M 1 1 G 2 0 M 1 1 G 2 0 M 8 8 G 2 0 M 6 6 G 0 1 M 5 5
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    810     959     111     +       .       gene_id 27 ; sequence AL161540.2 ; gene_orientation . ; identity 64.19 ; similarity 64.19
+contig_25       exonerate:est2genome    exon    810     959     .       +       .       insertions 2 ; deletions 14 ; identity 64.19 ; similarity 64.19
+contig_25       exonerate:est2genome    similarity      810     959     111     +       .       alignment_id 27 ; Query AL161540.2 ; Align 810 104413 56 ; Align 867 104469 22 ; Align 889 104492 6 ; Align 895 104500 2 ; Align 897 104503 27 ; Align 924 104531 4 ; Align 928 104537 10 ; Align 938 104548 1 ; Align 939 104551 1 ; Align 940 104554 8 ; Align 948 104564 6 ; Align 955 104570 5
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 108
+   Query range: 127965 -> 128121
+  Target range: 3541 -> 3677
+
+ 127966 : AAATGCTTGAATCTCCCAAATCTGTGCTAGAGTATAAGTCAACGACATGAATTTTG-G : 128022
+          ||||||||||||||  |||  | | ||| |         |||| | |||  || ||  
+   3542 : AAATGCTTGAATCT--CAA--CAGAGCTTG---------CAACCA-ATGGTTTGTGCT :   3585
+
+ 128023 : TTCTTTTGACTCTTCAGGGACAACTGAATTCGATAGCACCGGCGCAGGATAGCTTCTT : 128080
+          ||  ||||| |||||    |  | |    || || | | | || |   || ||||  |
+   3586 : TTGATTTGA-TCTTCTCTAATTAGTTTGATC-ATTGTAACTGCAC---ATTGCTTTAT :   3638
+
+ 128081 : CACGAATCAGCAAGCCATGTCTGGGAT-GGTGGTACATTATA : 128121
+           | || | ||      |||||| ||||   |||  | |||||
+   3639 : GA-GATTAAGAGTAGGATGTCTTGGATATATGG--CCTTATA :   3677
+
+vulgar: AL161540.2 127965 128121 + contig_25 3541 3677 + 108 M 14 14 G 2 0 M 3 3 G 2 0 M 9 9 G 9 0 M 6 6 G 1 0 M 10 10 G 0 1 M 10 10 G 1 0 M 21 21 G 1 0 M 13 13 G 3 0 M 12 12 G 1 0 M 24 24 G 0 1 M 5 5 G 2 0 M 7 7
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    3542    3677    108     +       .       gene_id 28 ; sequence AL161540.2 ; gene_orientation . ; identity 68.66 ; similarity 68.66
+contig_25       exonerate:est2genome    exon    3542    3677    .       +       .       insertions 2 ; deletions 22 ; identity 68.66 ; similarity 68.66
+contig_25       exonerate:est2genome    similarity      3542    3677    108     +       .       alignment_id 28 ; Query AL161540.2 ; Align 3542 127966 14 ; Align 3556 127982 3 ; Align 3559 127987 9 ; Align 3568 128005 6 ; Align 3574 128012 10 ; Align 3585 128022 10 ; Align 3595 128033 21 ; Align 3616 128055 13 ; Align 3629 128071 12 ; Align 3641 128084 24 ; Align 3666 128108 5 ; Align 3671 128115 7
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 107
+   Query range: 29022 -> 29098
+  Target range: 1018 -> 1084
+
+ 29023 : TTTTGTTTTTAGAAACAGAACGAAGTTGTAATTCTGATGGAGATAGCTTTTTGTTGTGAA : 29082
+         |||||  ||||||||||||||    || |  | || ||  ||| ||  || ||||||  |
+  1019 : TTTTGGCTTTAGAAACAGAAC----TT-TTCTACT-AT-TAGA-AG--TTATGTTGTTGA :  1068
+
+ 29083 : ATGTGAAACACTTACA : 29098
+         | ||    ||||| ||
+  1069 : AAGTTCTTCACTTTCA :  1084
+
+vulgar: AL161540.2 29022 29098 + contig_25 1018 1084 + 107 M 21 21 G 4 0 M 2 2 G 1 0 M 7 7 G 1 0 M 2 2 G 1 0 M 4 4 G 1 0 M 2 2 G 2 0 M 28 28
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    1019    1084    107     +       .       gene_id 29 ; sequence AL161540.2 ; gene_orientation . ; identity 77.27 ; similarity 77.27
+contig_25       exonerate:est2genome    exon    1019    1084    .       +       .       insertions 0 ; deletions 10 ; identity 77.27 ; similarity 77.27
+contig_25       exonerate:est2genome    similarity      1019    1084    107     +       .       alignment_id 29 ; Query AL161540.2 ; Align 1019 29023 21 ; Align 1040 29048 2 ; Align 1042 29051 7 ; Align 1049 29059 2 ; Align 1051 29062 4 ; Align 1055 29067 2 ; Align 1057 29071 28
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 107
+   Query range: 128907 -> 129005
+  Target range: 4400 -> 4501
+
+ 128908 : TTGGTCAAAAGAAACATTTGCAAAAA--------AAAAAAAAGAGAGGCA-AAGATC- : 128956
+          || |||  | ||||||||||||| ||        ||| |  ||| |  || |||||| 
+   4401 : TTTGTCTCAGGAAACATTTGCAAGAAGCTGTTCCAAACATGAGAAAAACACAAGATCT :   4458
+
+ 128957 : TCGAGAGATTTCAATTTTCAATGGAGAAAGTGAATCAAACCTTCTTCTTA : 129005
+          |  |  ||  |  | || |||| ||  |||   ||  || ||| ||||||
+   4459 : TTCATGGAGCT-GAGTTGCAAT-GA-CAAG---ATGTAATCTT-TTCTTA :   4501
+
+vulgar: AL161540.2 128907 129005 + contig_25 4400 4501 + 107 M 26 26 G 0 8 M 16 16 G 0 1 M 6 6 G 0 1 M 11 11 G 1 0 M 10 10 G 1 0 M 2 2 G 1 0 M 4 4 G 3 0 M 10 10 G 1 0 M 6 6
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    4401    4501    107     +       .       gene_id 30 ; sequence AL161540.2 ; gene_orientation . ; identity 73.63 ; similarity 73.63
+contig_25       exonerate:est2genome    exon    4401    4501    .       +       .       insertions 10 ; deletions 7 ; identity 73.63 ; similarity 73.63
+contig_25       exonerate:est2genome    similarity      4401    4501    107     +       .       alignment_id 30 ; Query AL161540.2 ; Align 4401 128908 26 ; Align 4435 128934 16 ; Align 4452 128950 6 ; Align 4459 128956 11 ; Align 4470 128968 10 ; Align 4480 128979 2 ; Align 4482 128982 4 ; Align 4486 128989 10 ; Align 4496 129000 6
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 103
+   Query range: 179364 -> 179644
+  Target range: 4399 -> 4690
+
+ 179365 : TTTAGCGTGTGAAAAGATAT-ATAGAA----TTACAAACTATGTAATTGCTAAATCAC : 179417
+          ||| |  |  | ||| || |   ||||    || ||||| |||  |     | |  | 
+   4400 : TTTTGTCTCAGGAAACATTTGCAAGAAGCTGTTCCAAAC-ATGAGAAAAACACAAGAT :   4456
+
+ 179418 : ATATGATGGTGGCTATGTCATTCAAAGAATTAGATTTATATGTTCCCTT------GTC : 179469
+           | | ||||  |||  ||  | ||| | |  |||| || || ||  |||      || 
+   4457 : CTTTCATGG-AGCTGAGT--TGCAATG-ACAAGATGTA-ATCTTTTCTTAAATTGGTT :   4509
+
+ 179470 : TCCGTAAATTCAAGTCTCGGACTGA--AAGTCATAACTAAATGATAGGAAATATT-TT : 179524
+          || ||| ||| | |     | || |  | || || |  |  ||  | |||||||| | 
+   4510 : TCTGTATATT-ATGGGATTGCCTTATGATGT-ATTA--ATGTGGGATGAAATATTGTG :   4563
+
+ 179525 : TGGCAAGATCTA--GTATAGTCACTTATCCTTTGTACGTTTATAATCAAAGAGTTCTG : 179580
+          |     |||  |  || | |  | |||     || ||  || |||  | |   || | 
+   4564 : TTATCTGATTGAATGTCTTGAGATTTAATAGATGCAC--TTGTAACAACATCTTTAT- :   4619
+
+ 179581 : GCCGAAGCACATACAAAT-T-TCCTCCAAGATCTAGT-A---TAGTCAGCTT---AT- : 179629
+            | || |||||| |||| | |||||   |   |||| |    ||| |  ||   || 
+   4620 : --CTAAACACATAGAAATCTATCCTCTGTGTATTAGTCAAACAAGTAATTTTGAGATC :   4674
+
+ 179630 : ACTTTTAATCAACACT : 179644
+          || || |||||| | |
+   4675 : ACATTAAATCAAAATT :   4690
+
+vulgar: AL161540.2 179364 179644 + contig_25 4399 4690 + 103 M 20 20 G 0 1 M 6 6 G 0 4 M 8 8 G 1 0 M 27 27 G 1 0 M 8 8 G 2 0 M 7 7 G 1 0 M 10 10 G 1 0 M 10 10 G 0 6 M 13 13 G 1 0 M 14 14 G 0 2 M 4 4 G 1 0 M 4 4 G 2 0 M 17 17 G 0 1 M 14 14 G 0 2 M 23 23 G 2 0 M 18 18 G 3 0 M 16 16 G 0 1 M 1 1 G 0 1 M 16 16 G 0 1 M 1 1 G 0 3 M 10 10 G 0 3 M 2 2 G 0 1 M 16 16
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    4400    4690    103     +       .       gene_id 31 ; sequence AL161540.2 ; gene_orientation . ; identity 63.02 ; similarity 63.02
+contig_25       exonerate:est2genome    exon    4400    4690    .       +       .       insertions 26 ; deletions 15 ; identity 63.02 ; similarity 63.02
+contig_25       exonerate:est2genome    similarity      4400    4690    103     +       .       alignment_id 31 ; Query AL161540.2 ; Align 4400 179365 20 ; Align 4421 179385 6 ; Align 4431 179391 8 ; Align 4439 179400 27 ; Align 4466 179428 8 ; Align 4474 179438 7 ; Align 4481 179446 10 ; Align 4491 179457 10 ; Align 4507 179467 13 ; Align 4520 179481 14 ; Align 4536 179495 4 ; Align 4540 179500 4 ; Align 4544 179506 17 ; Align 4562 179523 14 ; Align 4578 179537 23 ; Align 4601 179562 18 ; Align 4619 179583 16 ; Align 4636 179599 1 ; Align 4638 179600 16 ; Align 4655 179616 1 ; Align 4659 179617 10 ; Align 4672 179627 2 ; Align 4675 179629 16
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 102
+   Query range: 56818 -> 56969
+  Target range: 3569 -> 3719
+
+ 56819 : ACTACTTCTATCTTCTTGTATAGGATCTGGTCTCCATACTTTCGTTCTCTATTTGGGTCC : 56878
+         || | |  | | | |||  ||  |||||  ||||  ||  || |||   |  |||   | 
+  3570 : ACCAATGGTTTGTGCTTTGATTTGATCT--TCTC--TA-ATTAGTTTGATCATTGTAACT :  3624
+
+ 56879 : GCACATTGCTTTGTTCACTCTAAAAGCA--A---C---GCTATGTGGTCGAGTTGATCTA : 56930
+         ||||||||||||  | |   ||| || |  |   |   | ||| ||| |   | | | ||
+  3625 : GCACATTGCTTT-ATGAGATTAAGAGTAGGATGTCTTGGATATATGGCCTTATAGTTTTA :  3683
+
+ 56931 : AAATCTGCACCATATGATACAATACAGTTGAAAAGGGTT : 56969
+         | || |    |  | || || ||| |||| | | | | |
+  3684 : ACATTTTGTGC--AGGAAACTATA-AGTTCAGAGGCGAT :  3719
+
+vulgar: AL161540.2 56818 56969 + contig_25 3569 3719 + 102 M 28 28 G 2 0 M 4 4 G 2 0 M 2 2 G 1 0 M 33 33 G 1 0 M 15 15 G 0 2 M 1 1 G 0 3 M 1 1 G 0 3 M 33 33 G 2 0 M 11 11 G 1 0 M 14 14
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    3570    3719    102     +       .       gene_id 32 ; sequence AL161540.2 ; gene_orientation . ; identity 63.38 ; similarity 63.38
+contig_25       exonerate:est2genome    exon    3570    3719    .       +       .       insertions 8 ; deletions 9 ; identity 63.38 ; similarity 63.38
+contig_25       exonerate:est2genome    similarity      3570    3719    102     +       .       alignment_id 32 ; Query AL161540.2 ; Align 3570 56819 28 ; Align 3598 56849 4 ; Align 3602 56855 2 ; Align 3604 56858 33 ; Align 3637 56892 15 ; Align 3654 56907 1 ; Align 3658 56908 1 ; Align 3662 56909 33 ; Align 3695 56944 11 ; Align 3706 56956 14
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 101
+   Query range: 150038 -> 150378
+  Target range: 3538 -> 3871
+
+ 150039 : GTCTAAAACTCAAAT-GCATCAGAAATCAAAAGCAGTCATGGATATATCTATGATCAA : 150095
+          | | ||  ||  |||  || ||||  |   || ||   |||| |    || ||||   
+   3539 : GCCAAATGCTTGAATCTCAACAGAGCTTGCAACCA---ATGGTTTGTGCTTTGATTTG :   3593
+
+ 150096 : ACACTCCAAATGATTACATGATGACCATAATAGAAACAGCTCA--ACTTCACAATTCA : 150151
+          |  || |   | ||||  |  ||| |||  | | ||| || ||   ||| |  |   |
+   3594 : A-TCTTC-TCTAATTAGTT--TGATCAT--T-GTAACTGCACATTGCTTTATGA--GA :   3642
+
+ 150152 : TCAAAGGTCTAGTAATTATTGAATACAATGAAAAGCAATTGAAGTTGCTATAATCTT- : 150209
+          | ||  |  ||| |  | ||| |||  |||    ||  ||  ||||  ||  || || 
+   3643 : TTAA--GAGTAGGATGTCTTGGATA-TATG----GC-CTTATAGTT-TTAACATTTTG :   3691
+
+ 150210 : ---AG--TATTTGAAGTCGAGAAGC-TTGG-CATCAGCGAATGAAT-CTCTCTTCTTT : 150258
+             ||   | |  ||||  ||| ||  ||| |||    |||||  | || |  || | 
+   3692 : TGCAGGAAACTATAAGTTCAGAGGCGATGGACAT----GAATGGTTACTATGGTCCTC :   3745
+
+ 150259 : TTC-GA--TTTCTTGAAATGTTTTG-AAGCTGCCTTTAACACACCATTCCATCCCTAA : 150312
+            | ||   |||  | | || | ||  |  |   || |  |   ||  || |   |||
+   3746 : AACAGAACGTTCAAGGACTGGTATGCTATGTTAGTTGATTAATACAAACC-TGGTTAA :   3802
+
+ 150313 : ACAATTAACAACATCTATTATAAACATTGA-CCAAAAC-----AAAACTGAGAACATT : 150364
+           | |||  | |||||||||||||||  | |  | ||||      |||||| | | | |
+   3803 : GCCATT--CGACATCTATTATAAACCCTAATACTAAACCTGTTTAAACTGTGGATA-T :   3857
+
+ 150365 : ATCTATGTTATATG : 150378
+          |  ||  ||  |||
+   3858 : AGTTAAATTTAATG :   3871
+
+vulgar: AL161540.2 150038 150378 + contig_25 3538 3871 + 101 M 15 15 G 0 1 M 19 19 G 3 0 M 21 21 G 1 0 M 5 5 G 1 0 M 11 11 G 2 0 M 7 7 G 2 0 M 1 1 G 1 0 M 11 11 G 0 2 M 9 9 G 2 0 M 6 6 G 2 0 M 19 19 G 1 0 M 4 4 G 4 0 M 2 2 G 1 0 M 9 9 G 1 0 M 10 10 G 0 4 M 2 2 G 0 2 M 18 18 G 0 1 M 4 4 G 0 1 M 3 3 G 4 0 M 8 8 G 0 1 M 14 14 G 0 1 M 2 2 G 0 2 M 17 17 G 0 1 M 24 24 G 1 0 M 13 13 G 2 0 M 22 22 G 0 1 M 7 7 G 0 5 M 13 13 G 1 0 M 15 15
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    3539    3871    101     +       .       gene_id 33 ; sequence AL161540.2 ; gene_orientation . ; identity 63.34 ; similarity 63.34
+contig_25       exonerate:est2genome    exon    3539    3871    .       +       .       insertions 22 ; deletions 29 ; identity 63.34 ; similarity 63.34
+contig_25       exonerate:est2genome    similarity      3539    3871    101     +       .       alignment_id 33 ; Query AL161540.2 ; Align 3539 150039 15 ; Align 3555 150054 19 ; Align 3574 150076 21 ; Align 3595 150098 5 ; Align 3600 150104 11 ; Align 3611 150117 7 ; Align 3618 150126 1 ; Align 3619 150128 11 ; Align 3632 150139 9 ; Align 3641 150150 6 ; Align 3647 150158 19 ; Align 3666 150178 4 ; Align 3670 150186 2 ; Align 3672 150189 9 ; Align 3681 150199 10 ; Align 3695 150209 2 ; Align 3699 150211 18 ; Align 3718 150229 4 ; Align 3723 150233 3 ; Align 3726 150240 8 ; Align 3735 150248 14 ; Align 3750 150262 2 ; Align 3754 150264 17 ; Align 3772 150281 24 ; Align 3796 150306 13 ; Align 3809 150321 22 ; Align 3832 150343 7 ; Align 3844 150350 13 ; Align 3857 150364 15
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> exonerate -m est2genome  --showtargetgff -q Arabidopsis_1blast.fa -t contig_25.fa -S F
+Command line: [exonerate -m est2genome --showtargetgff -q Arabidopsis_1blast.fa -t contig_25.fa -S F]
+Hostname: [vbox]
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25
+         Model: est2genome
+     Raw score: 32303
+   Query range: 124024 -> 130488
+  Target range: 0 -> 6463
+
+ 124025 : TGTAAAAATCATAAAAATAGATGTAAAAATCATATTAAAAGTTATGATAAATTTAGTT : 124082
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+      1 : TGTAAAAATCATAAAAATAGATGTAAAAATCATATTAAAAGTTATGATAAATTTAGTT :     58
+
+ 124083 : TACTACATAACTCTTTTGAAAAATGTGGAAAAATTATAGTAAACTGTATGAAAAGAAG : 124140
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+     59 : TACTACATAACTCTTTTGAAAAATGTGGAAAAATTATAGTAAACTGTATGAAAAGAAG :    116
+
+ 124141 : ATTATCATACAGTTAAAATTAAAATCTTTTAGAACATGTGTAGTGGTGGTTTCTAACC : 124198
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    117 : ATTATCATACAGTTAAAATTAAAATCTTTTAGAACATGTGTAGTGGTGGTTTCTAACC :    174
+
+ 124199 : AAAGTTTTTAATTTACTAAAGTAATAATAATAAAAAAAATATTTAATTTGAAGAGTTT : 124256
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    175 : AAAGTTTTTAATTTACTAAAGTAATAATAATAAAAAAAATATTTAATTTGAAGAGTTT :    232
+
+ 124257 : TTTAAAATAGTTTTTTCAAATCTTTTAAATTAAAAACTTTCTCATATTTTCTTAGAAA : 124314
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    233 : TTTAAAATAGTTTTTTCAAATCTTTTAAATTAAAAACTTTCTCATATTTTCTTAGAAA :    290
+
+ 124315 : TTGTTTTAATTAAAAAAATATTGTTTATTATTTTATTATTATTAATGTAGGCGAGAGA : 124372
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    291 : TTGTTTTAATTAAAAAAATATTGTTTATTATTTTATTATTATTAATGTAGGCGAGAGA :    348
+
+ 124373 : TTTTGGTAAAAAATCACAATGCTGATGCTTTTAAAATAATCAATTTTTCTAAGAATAC : 124430
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    349 : TTTTGGTAAAAAATCACAATGCTGATGCTTTTAAAATAATCAATTTTTCTAAGAATAC :    406
+
+ 124431 : ATAAATCAGCAATGCTTCTCACACGCCAAACGTAAATATAGACGCGATTATGAAAAAA : 124488
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    407 : ATAAATCAGCAATGCTTCTCACACGCCAAACGTAAATATAGACGCGATTATGAAAAAA :    464
+
+ 124489 : AATCGCGTCGAAAACAAACGTCATTATGTCATTACACGTGTTACCAATCAAAAAGCCT : 124546
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    465 : AATCGCGTCGAAAACAAACGTCATTATGTCATTACACGTGTTACCAATCAAAAAGCCT :    522
+
+ 124547 : TTATGTTTAATTAGTAAAGGCTAGTAAGAGATTTACAACAAATGAAAAAAATAAAAAT : 124604
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    523 : TTATGTTTAATTAGTAAAGGCTAGTAAGAGATTTACAACAAATGAAAAAAATAAAAAT :    580
+
+ 124605 : AAAAACATAATCCAAGATCCCTAAAAATTCCCAAAAAGAACCCTAGATTTTCTCCTCT : 124662
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    581 : AAAAACATAATCCAAGATCCCTAAAAATTCCCAAAAAGAACCCTAGATTTTCTCCTCT :    638
+
+ 124663 : CACGCTCCTTGGTTCCTCACTCGCTTTTGCTTCCCCACTCGCCTGCTTCGTGTTCTTC : 124720
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    639 : CACGCTCCTTGGTTCCTCACTCGCTTTTGCTTCCCCACTCGCCTGCTTCGTGTTCTTC :    696
+
+ 124721 : TTTGCTTTGCTCTTTTCACGTCAGAATTTTGCCTTCCCTCCCTTTGTCTCTCTCTGGG : 124778
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    697 : TTTGCTTTGCTCTTTTCACGTCAGAATTTTGCCTTCCCTCCCTTTGTCTCTCTCTGGG :    754
+
+ 124779 : TGGCCGAGAAAATACAGTAAAAAGCCCTCACCAATCCAAAAGTTTGACATTTCCTGAA : 124836
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    755 : TGGCCGAGAAAATACAGTAAAAAGCCCTCACCAATCCAAAAGTTTGACATTTCCTGAA :    812
+
+ 124837 : TTTTGTAGTCTCTTCATTTGAATTCTCAGGTTTTCTCTTAAGATACATTAAAGTCTCT : 124894
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    813 : TTTTGTAGTCTCTTCATTTGAATTCTCAGGTTTTCTCTTAAGATACATTAAAGTCTCT :    870
+
+ 124895 : GTCTTTTATGCTGATACTAATGAAAGTTCAGTTCTTTCACTGAAATTTTAGAACCAGA : 124952
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    871 : GTCTTTTATGCTGATACTAATGAAAGTTCAGTTCTTTCACTGAAATTTTAGAACCAGA :    928
+
+ 124953 : ACTTTTCTACTACTAGAAGTATGTTGTCTCTGACTCTCTTAGTTTGAGTTCTCAGGTC : 125010
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    929 : ACTTTTCTACTACTAGAAGTATGTTGTCTCTGACTCTCTTAGTTTGAGTTCTCAGGTC :    986
+
+ 125011 : TCCTTCTCTTATTTGTGTGAAATTTTACTCTTTTTTGGCTTTAGAAACAGAACTTTTC : 125068
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    987 : TCCTTCTCTTATTTGTGTGAAATTTTACTCTTTTTTGGCTTTAGAAACAGAACTTTTC :   1044
+
+ 125069 : TACTATTAGAAGTTATGTTGTTGAAAGTTCTTCACTTTCATTTGATTCCATTGATTTC : 125126
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1045 : TACTATTAGAAGTTATGTTGTTGAAAGTTCTTCACTTTCATTTGATTCCATTGATTTC :   1102
+
+ 125127 : ATATTGCTTTGTGTGTTTCAAGTTTGATGTTTTTAGGTAGAAGATGTCGCGCTGGTTC : 125184
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1103 : ATATTGCTTTGTGTGTTTCAAGTTTGATGTTTTTAGGTAGAAGATGTCGCGCTGGTTC :   1160
+
+ 125185 : TTATGAAGTTTGGTTGTGACATTTTTCAGGTGCTAAGGTGGATTATCTAGTAGAAAGA : 125242
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1161 : TTATGAAGTTTGGTTGTGACATTTTTCAGGTGCTAAGGTGGATTATCTAGTAGAAAGA :   1218
+
+ 125243 : TTTCAGTTTCCAATTTCATGGAAGCCCATAGTGGGGTAGTTGCTTTTGAGTGTGTTAG : 125300
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1219 : TTTCAGTTTCCAATTTCATGGAAGCCCATAGTGGGGTAGTTGCTTTTGAGTGTGTTAG :   1276
+
+ 125301 : TGAATCCATATGTGGCTAAGGTTAGGATGGATTTGCAAGAGAATCTGGTTAGTGATGC : 125358
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1277 : TGAATCCATATGTGGCTAAGGTTAGGATGGATTTGCAAGAGAATCTGGTTAGTGATGC :   1334
+
+ 125359 : AGGGGATGACCATATGGTTGACATTGTAGTTGAACCGCATAGTAACAGAGATATAGGA : 125416
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1335 : AGGGGATGACCATATGGTTGACATTGTAGTTGAACCGCATAGTAACAGAGATATAGGA :   1392
+
+ 125417 : ATTGTTGATGAGTTCAATATAGGTGGAGATGTTGGATTTAGTGGTGATCTGGATCTTG : 125474
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1393 : ATTGTTGATGAGTTCAATATAGGTGGAGATGTTGGATTTAGTGGTGATCTGGATCTTG :   1450
+
+ 125475 : AGCCACGAAATGGTATAGACTTTGATACCCATGAGGCAGCGTATATCTTTTATCAGGA : 125532
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1451 : AGCCACGAAATGGTATAGACTTTGATACCCATGAGGCAGCGTATATCTTTTATCAGGA :   1508
+
+ 125533 : ATATGCAAAATCTATGGGTTTTTACTACGTCGATTAAAAACAGTAGACGTTCCAAGAA : 125590
+          |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||
+   1509 : ATATGCAAAATCTATGGG-TTTTACTACGTCGATTAAAAACAGTAGACGTTCCAAGAA :   1565
+
+ 125591 : AACTAAAGACTTCATTGATGCTAAGTTTGCTTGTTCCAGATATGGTGTGACTCCTGAG : 125648
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1566 : AACTAAAGACTTCATTGATGCTAAGTTTGCTTGTTCCAGATATGGTGTGACTCCTGAG :   1623
+
+ 125649 : TCTGAGAGTAGTGGTAGTAGTAGTCGAAGGTCAACTGTGAAAAAAACAGATTGCAAGG : 125706
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1624 : TCTGAGAGTAGTGGTAGTAGTAGTCGAAGGTCAACTGTGAAAAAAACAGATTGCAAGG :   1681
+
+ 125707 : CTAGTATGCATGTGAAGAGAAGACCAGATGGGAAATGGATCATTCATGAGTTTGTAAA : 125764
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1682 : CTAGTATGCATGTGAAGAGAAGACCAGATGGGAAATGGATCATTCATGAGTTTGTAAA :   1739
+
+ 125765 : GGATCACAATCACGAACTTTTACCTGCCCTTGCTTATCATTTCCGGATTCAGAGGAAT : 125822
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1740 : GGATCACAATCACGAACTTTTACCTGCCCTTGCTTATCATTTCCGGATTCAGAGGAAT :   1797
+
+ 125823 : GTCAAGTTAGCTGAGAAGAATAATATCGACATTCTGCATGCGGTTAGTGAACGGACCA : 125880
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1798 : GTCAAGTTAGCTGAGAAGAATAATATCGACATTCTGCATGCGGTTAGTGAACGGACCA :   1855
+
+ 125881 : AAAAAATGTATGTTGAAATGTCGAGACAATCTGGCGGATATAAGAATATCGGGTCTCT : 125938
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1856 : AAAAAATGTATGTTGAAATGTCGAGACAATCTGGCGGATATAAGAATATCGGGTCTCT :   1913
+
+ 125939 : TCTTCAGACCGATGTCAGCAGTCAGGTTGATAAGGGTAGGTATCTAGCTTTGGAAGAA : 125996
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1914 : TCTTCAGACCGATGTCAGCAGTCAGGTTGATAAGGGTAGGTATCTAGCTTTGGAAGAA :   1971
+
+ 125997 : GGAGATTCTCAAGTACTGCTTGAGTACTTCAAGCGTATCAAGAAAGAAAACCCTAAAT : 126054
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1972 : GGAGATTCTCAAGTACTGCTTGAGTACTTCAAGCGTATCAAGAAAGAAAACCCTAAAT :   2029
+
+ 126055 : TCTTTTATGCTATAGACCTGAACGAGGACCAACGTTTAAGAAATCTGTTTTGGGCTGA : 126112
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2030 : TCTTTTATGCTATAGACCTGAACGAGGACCAACGTTTAAGAAATCTGTTTTGGGCTGA :   2087
+
+ 126113 : TGCCAAGAGCAGAGATGACTATTTGAGTTTCAATGATGTTGTATCCTTTGATACTACT : 126170
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2088 : TGCCAAGAGCAGAGATGACTATTTGAGTTTCAATGATGTTGTATCCTTTGATACTACT :   2145
+
+ 126171 : TATGTCAAGTTTAACGATAAGTTGCCACTAGCTTTATTTATTGGGGTGAACCATCACT : 126228
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2146 : TATGTCAAGTTTAACGATAAGTTGCCACTAGCTTTATTTATTGGGGTGAACCATCACT :   2203
+
+ 126229 : CCCAACCTATGTTACTAGGCTGTGCATTGGTTGCTGATGAGTCTATGGAGACTTTTGT : 126286
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2204 : CCCAACCTATGTTACTAGGCTGTGCATTGGTTGCTGATGAGTCTATGGAGACTTTTGT :   2261
+
+ 126287 : GTGGCTGATAAAAACATGGCTACGAGCAATGGGTGGTCGAGCTCCTAAAGTTATACTC : 126344
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2262 : GTGGCTGATAAAAACATGGCTACGAGCAATGGGTGGTCGAGCTCCTAAAGTTATACTC :   2319
+
+ 126345 : ACTGACCAAGATAAATTCTTGATGTCTGCTGTTTCAGAGCTCCTACCAAACACTCGTC : 126402
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2320 : ACTGACCAAGATAAATTCTTGATGTCTGCTGTTTCAGAGCTCCTACCAAACACTCGTC :   2377
+
+ 126403 : ATTGCTTTGCGTTATGGCATGTTTTAGAAAAGATTCCTGAATATTTCTCACATGTGAT : 126460
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2378 : ATTGCTTTGCGTTATGGCATGTTTTAGAAAAGATTCCTGAATATTTCTCACATGTGAT :   2435
+
+ 126461 : GAAACGGCACGAGAATTTCTTACTGAAATTCAACAAATGCATTTTCAGATCTTGGACA : 126518
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2436 : GAAACGGCACGAGAATTTCTTACTGAAATTCAACAAATGCATTTTCAGATCTTGGACA :   2493
+
+ 126519 : GATGATGAGTTTGATATGAGGTGGTGGAAAATGGTCAGCCAGTTTGGACTTGAGAATG : 126576
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2494 : GATGATGAGTTTGATATGAGGTGGTGGAAAATGGTCAGCCAGTTTGGACTTGAGAATG :   2551
+
+ 126577 : ATGAATGGCTGCTATGGTTGCATGAACATCGCCAAAAGTGGGTGCCCACATTTATGAG : 126634
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2552 : ATGAATGGCTGCTATGGTTGCATGAACATCGCCAAAAGTGGGTGCCCACATTTATGAG :   2609
+
+ 126635 : CGATGTGTTTCTGGCAGGCATGTCGACATCTCAACGTTCAGAAAGTGTGAACTCTTTC : 126692
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2610 : CGATGTGTTTCTGGCAGGCATGTCGACATCTCAACGTTCAGAAAGTGTGAACTCTTTC :   2667
+
+ 126693 : TTCGATAAGTACATCCATAAGAAAATCACGCTGAAAGAGTTCTTGAGGCAATACGGTG : 126750
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2668 : TTCGATAAGTACATCCATAAGAAAATCACGCTGAAAGAGTTCTTGAGGCAATACGGTG :   2725
+
+ 126751 : TGATTCTGCAGAATAGGTACGAAGAGGAATCTGTTGCAGATTTCGATACTTGCCACAA : 126808
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2726 : TGATTCTGCAGAATAGGTACGAAGAGGAATCTGTTGCAGATTTCGATACTTGCCACAA :   2783
+
+ 126809 : GCAACCTGCATTGAAGTCCCCCTCGCCCTGGGAGAAGCAAATGGCAACAACTTACACC : 126866
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2784 : GCAACCTGCATTGAAGTCCCCCTCGCCCTGGGAGAAGCAAATGGCAACAACTTACACC :   2841
+
+ 126867 : CACACAATATTTAAGAAATTTCAAGTCGAGGTCTTGGGGGTTGTCGCTTGCCATCCTA : 126924
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2842 : CACACAATATTTAAGAAATTTCAAGTCGAGGTCTTGGGGGTTGTCGCTTGCCATCCTA :   2899
+
+ 126925 : GAAAGGAAAAAGAAGATGAAAATATGGCGACGTTTAGAGTTCAAGACTGTGAAAAAGA : 126982
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2900 : GAAAGGAAAAAGAAGATGAAAATATGGCGACGTTTAGAGTTCAAGACTGTGAAAAAGA :   2957
+
+ 126983 : CGATGACTTTCTTGTAACGTGGAGCAAAACTAAGTCAGAACTTTGCTGCTTCTGTCGT : 127040
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   2958 : CGATGACTTTCTTGTAACGTGGAGCAAAACTAAGTCAGAACTTTGCTGCTTCTGTCGT :   3015
+
+ 127041 : ATGTTTGAATACAAAGGGTTTCTTTGTCGGCATGCTTTGATGATTCTGCAGATGTGTG : 127098
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3016 : ATGTTTGAATACAAAGGGTTTCTTTGTCGGCATGCTTTGATGATTCTGCAGATGTGTG :   3073
+
+ 127099 : GTTTCGCCAGCATCCCGCCTCAGTATATATTGAAAAGGTGGACAAAAGATGCTAAGAG : 127156
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3074 : GTTTCGCCAGCATCCCGCCTCAGTATATATTGAAAAGGTGGACAAAAGATGCTAAGAG :   3131
+
+ 127157 : TGGAGTATTAGCTGGTGAAGGAGCAGACCAGATACAGACCCGAGTTCAGCGCTATAAC : 127214
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3132 : TGGAGTATTAGCTGGTGAAGGAGCAGACCAGATACAGACCCGAGTTCAGCGCTATAAC :   3189
+
+ 127215 : GATTTGTGTAGTCGAGCCACTGAATTGAGTGAGGAAGGTTGTGTGTCAGAAGAAAACT : 127272
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3190 : GATTTGTGTAGTCGAGCCACTGAATTGAGTGAGGAAGGTTGTGTGTCAGAAGAAAACT :   3247
+
+ 127273 : ACAACATCGCATTGCGCACACTAGTCGAGACCCTGAAAAATTGTGTTGATATGAATAA : 127330
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3248 : ACAACATCGCATTGCGCACACTAGTCGAGACCCTGAAAAATTGTGTTGATATGAATAA :   3305
+
+ 127331 : TGCTAGAAACAACATCACTGAGTCTAATAGCCAGCTTAATAATGGTACTCACGAAGAA : 127388
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3306 : TGCTAGAAACAACATCACTGAGTCTAATAGCCAGCTTAATAATGGTACTCACGAAGAA :   3363
+
+ 127389 : GAAAACCAGGTAATGGCTGGGGTAAAAGCAACAAAAAAGAAGACTGTATATAGGAAAA : 127446
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3364 : GAAAACCAGGTAATGGCTGGGGTAAAAGCAACAAAAAAGAAGACTGTATATAGGAAAA :   3421
+
+ 127447 : GAAAGGTATGCTTTTACTGAAGCTTCTCGCCAATCTAAACCTACGTACATTTTCTTAG : 127504
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3422 : GAAAGGTATGCTTTTACTGAAGCTTCTCGCCAATCTAAACCTACGTACATTTTCTTAG :   3479
+
+ 127505 : CTTCAAAGGTTAAAAAGAAGATACTCAAATTGATCTTATGCAGGGACAACAAGAGGCT : 127562
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3480 : CTTCAAAGGTTAAAAAGAAGATACTCAAATTGATCTTATGCAGGGACAACAAGAGGCT :   3537
+
+ 127563 : AGCCAAATGCTTGAATCTCAACAGAGCTTGCAACCAATGGTTTGTGCTTTGATTTGAT : 127620
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3538 : AGCCAAATGCTTGAATCTCAACAGAGCTTGCAACCAATGGTTTGTGCTTTGATTTGAT :   3595
+
+ 127621 : CTTCTCTAATTAGTTTGATCATTGTAACTGCACATTGCTTTATGAGATTAAGAGTAGG : 127678
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3596 : CTTCTCTAATTAGTTTGATCATTGTAACTGCACATTGCTTTATGAGATTAAGAGTAGG :   3653
+
+ 127679 : ATGTCTTGGATATATGGCCTTATAGTTTTAACATTTTGTGCAGGAAACTATAAGTTCA : 127736
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3654 : ATGTCTTGGATATATGGCCTTATAGTTTTAACATTTTGTGCAGGAAACTATAAGTTCA :   3711
+
+ 127737 : GAGGCGATGGACATGAATGGTTACTATGGTCCTCAACAGAACGTTCAAGGACTGGTAT : 127794
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3712 : GAGGCGATGGACATGAATGGTTACTATGGTCCTCAACAGAACGTTCAAGGACTGGTAT :   3769
+
+ 127795 : GCTATGTTAGTTGATTAATACAAACCTGGTTAAGCCATTCGACATCTATTATAAACCC : 127852
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3770 : GCTATGTTAGTTGATTAATACAAACCTGGTTAAGCCATTCGACATCTATTATAAACCC :   3827
+
+ 127853 : TAATACTAAACCTGTTTAAACTGTGGATATAGTTAAATTTAATGGAGCCACCTCATGA : 127910
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3828 : TAATACTAAACCTGTTTAAACTGTGGATATAGTTAAATTTAATGGAGCCACCTCATGA :   3885
+
+ 127911 : AGGCTACTATGTAGATCAACGAACCATCCAAGGCCTGGTAGGTTACATATAGTTTAAA : 127968
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3886 : AGGCTACTATGTAGATCAACGAACCATCCAAGGCCTGGTAGGTTACATATAGTTTAAA :   3943
+
+ 127969 : TGCTTGAATCTCCCAAATCTGTGCTAGAGTATAAGTCAACGACATGAATTTTGGTTCT : 128026
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   3944 : TGCTTGAATCTCCCAAATCTGTGCTAGAGTATAAGTCAACGACATGAATTTTGGTTCT :   4001
+
+ 128027 : TTTGACTCTTCAGGGACAACTGAATTCGATAGCACCGGCGCAGGATAGCTTCTTCACG : 128084
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4002 : TTTGACTCTTCAGGGACAACTGAATTCGATAGCACCGGCGCAGGATAGCTTCTTCACG :   4059
+
+ 128085 : AATCAGCAAGCCATGTCTGGGATGGTGGTACATTATAAAATCCTTCAAACTGATTTTA : 128142
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4060 : AATCAGCAAGCCATGTCTGGGATGGTGGTACATTATAAAATCCTTCAAACTGATTTTA :   4117
+
+ 128143 : AAAACTGTGTTATGAATGATCGTGTTGTTAACATCTTTTGTTTATTGTCCGGTCCAGG : 128200
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4118 : AAAACTGTGTTATGAATGATCGTGTTGTTAACATCTTTTGTTTATTGTCCGGTCCAGG :   4175
+
+ 128201 : GTCAAATCGATTTCAGACCTCCTCCCAATTTCACTTACACTTTACAGGTCTCAGCTGC : 128258
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4176 : GTCAAATCGATTTCAGACCTCCTCCCAATTTCACTTACACTTTACAGGTCTCAGCTGC :   4233
+
+ 128259 : CTGGATAAAGTCTTTACTTTAGTATCATTTTGTACTCGAACCACACGTGTTGATATCG : 128316
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4234 : CTGGATAAAGTCTTTACTTTAGTATCATTTTGTACTCGAACCACACGTGTTGATATCG :   4291
+
+ 128317 : TTAAATCTTTTCGTTATTCCAGGAAGAGCATTTGAGTTCTGCCCAATTACCTGGTAGT : 128374
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4292 : TTAAATCTTTTCGTTATTCCAGGAAGAGCATTTGAGTTCTGCCCAATTACCTGGTAGT :   4349
+
+ 128375 : TCATCAAGGCAGCTATAGTAGCAACACGTTTTGATTACTTTGGAGAGAAGTTTTGTCT : 128432
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4350 : TCATCAAGGCAGCTATAGTAGCAACACGTTTTGATTACTTTGGAGAGAAGTTTTGTCT :   4407
+
+ 128433 : CAGGAAACATTTGCAAGAAGCTGTTCCAAACATGAGAAAAACACAAGATCTTTCATGG : 128490
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4408 : CAGGAAACATTTGCAAGAAGCTGTTCCAAACATGAGAAAAACACAAGATCTTTCATGG :   4465
+
+ 128491 : AGCTGAGTTGCAATGACAAGATGTAATCTTTTCTTAAATTGGTTTCTGTATATTATGG : 128548
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4466 : AGCTGAGTTGCAATGACAAGATGTAATCTTTTCTTAAATTGGTTTCTGTATATTATGG :   4523
+
+ 128549 : GATTGCCTTATGATGTATTAATGTGGGATGAAATATTGTGTTATCTGATTGAATGTCT : 128606
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4524 : GATTGCCTTATGATGTATTAATGTGGGATGAAATATTGTGTTATCTGATTGAATGTCT :   4581
+
+ 128607 : TGAGATTTAATAGATGCACTTGTAACAACATCTTTATCTAAACACATAGAAATCTATC : 128664
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4582 : TGAGATTTAATAGATGCACTTGTAACAACATCTTTATCTAAACACATAGAAATCTATC :   4639
+
+ 128665 : CTCTGTGTATTAGTCAAACAAGTAATTTTGAGATCACATTAAATCAAAATTGTTAAAA : 128722
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4640 : CTCTGTGTATTAGTCAAACAAGTAATTTTGAGATCACATTAAATCAAAATTGTTAAAA :   4697
+
+ 128723 : CAGGTTTCAACTTATTTAGTAGAAACAAAAAGTTATTTTTAGATTAAATGTGGTTAAT : 128780
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4698 : CAGGTTTCAACTTATTTAGTAGAAACAAAAAGTTATTTTTAGATTAAATGTGGTTAAT :   4755
+
+ 128781 : TTGGTTAAATACACATTCCCTGGTCGTTGTCGTATGTAGGTGTGTCCCTTTTGACAAA : 128838
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4756 : TTGGTTAAATACACATTCCCTGGTCGTTGTCGTATGTAGGTGTGTCCCTTTTGACAAA :   4813
+
+ 128839 : ACAAACAAACAGAAAAGGTTTCTTTATTCAGACAACATCAAAACTGGGGAAGAACCAA : 128896
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4814 : ACAAACAAACAGAAAAGGTTTCTTTATTCAGACAACATCAAAACTGGGGAAGAACCAA :   4871
+
+ 128897 : AACTAATAGAGTTGGTCAAAAGAAACATTTGCAAAAAAAAAAAAAGAGAGGCAAAGAT : 128954
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4872 : AACTAATAGAGTTGGTCAAAAGAAACATTTGCAAAAAAAAAAAAAGAGAGGCAAAGAT :   4929
+
+ 128955 : CTCGAGAGATTTCAATTTTCAATGGAGAAAGTGAATCAAACCTTCTTCTTATCTCATG : 129012
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4930 : CTCGAGAGATTTCAATTTTCAATGGAGAAAGTGAATCAAACCTTCTTCTTATCTCATG :   4987
+
+ 129013 : GATCTCCAACTTTGAGCATAGATGATTCCTTGGAAGCGAGACAATTCTTCAAATCATG : 129070
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   4988 : GATCTCCAACTTTGAGCATAGATGATTCCTTGGAAGCGAGACAATTCTTCAAATCATG :   5045
+
+ 129071 : GACTCAAAAAGTTCTTCCTCAAAAACCCAAATCGATTTTAGTCATCTCTGCTCATTGG : 129128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5046 : GACTCAAAAAGTTCTTCCTCAAAAACCCAAATCGATTTTAGTCATCTCTGCTCATTGG :   5103
+
+ 129129 : GACACCAAATTCCCATCTGTCAACACTGTTCTTCGCAATAACACGATCCACGATTTCT : 129186
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5104 : GACACCAAATTCCCATCTGTCAACACTGTTCTTCGCAATAACACGATCCACGATTTCT :   5161
+
+ 129187 : CTGGCTTCCCTGATCCTATGTACAAGGTAAAACCAAAAAAAATATAACTTTTTGTCTC : 129244
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5162 : CTGGCTTCCCTGATCCTATGTACAAGGTAAAACCAAAAAAAATATAACTTTTTGTCTC :   5219
+
+ 129245 : AACAGATTTTTAGGGCTCTTAGATCGTTGAAGGATGCATAAAGTTTTGATTTTTAAAT : 129302
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5220 : AACAGATTTTTAGGGCTCTTAGATCGTTGAAGGATGCATAAAGTTTTGATTTTTAAAT :   5277
+
+ 129303 : GTTTAAATCATCTCTCTTGGGTTTGATTTGATATTTTTGTCTGTAGTTGAAATATGAA : 129360
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5278 : GTTTAAATCATCTCTCTTGGGTTTGATTTGATATTTTTGTCTGTAGTTGAAATATGAA :   5335
+
+ 129361 : GCACCAGGAGCAATTGAATTAGGGAAAAGGGTTAAAGAGTTGTTAATGAAAGAAGGAG : 129418
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5336 : GCACCAGGAGCAATTGAATTAGGGAAAAGGGTTAAAGAGTTGTTAATGAAAGAAGGAG :   5393
+
+ 129419 : GAATGAAACGTGTTGATGAAGATACAAAGAGAGGACTTGATCATGGAGCTTGGGTTCC : 129476
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5394 : GAATGAAACGTGTTGATGAAGATACAAAGAGAGGACTTGATCATGGAGCTTGGGTTCC :   5451
+
+ 129477 : TCTTATGTTGATGTATCCAGAAGCTGATATACCCATTTGTCAACTCTCTGTTCAATCA : 129534
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5452 : TCTTATGTTGATGTATCCAGAAGCTGATATACCCATTTGTCAACTCTCTGTTCAATCA :   5509
+
+ 129535 : AATCAAAATGGGAGTTATCATTACAACATGGGTAAAGCATTGGCTTCATTGAAAGATG : 129592
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5510 : AATCAAAATGGGAGTTATCATTACAACATGGGTAAAGCATTGGCTTCATTGAAAGATG :   5567
+
+ 129593 : AAGGTGTTCTTATCATTGGCTCTGGAAGTGCTACTCATAACTTGAGGAAGCTTGACTT : 129650
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5568 : AAGGTGTTCTTATCATTGGCTCTGGAAGTGCTACTCATAACTTGAGGAAGCTTGACTT :   5625
+
+ 129651 : TAATATCACTGATGGCTCACCCGTTCCTTGGGCCTTGGAGTTTGATCATTGGCTTAGA : 129708
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5626 : TAATATCACTGATGGCTCACCCGTTCCTTGGGCCTTGGAGTTTGATCATTGGCTTAGA :   5683
+
+ 129709 : GATTCTCTACTTCAAGGAAGGTTAGAAAGTTTTAACCTTTTTGCTGCTTGGTTATATG : 129766
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5684 : GATTCTCTACTTCAAGGAAGGTTAGAAAGTTTTAACCTTTTTGCTGCTTGGTTATATG :   5741
+
+ 129767 : ATAAGATCATTGATTTGTTTCATGTGTTTTTTTAGGTATGGAGATGTGAATGAGTGGG : 129824
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5742 : ATAAGATCATTGATTTGTTTCATGTGTTTTTTTAGGTATGGAGATGTGAATGAGTGGG :   5799
+
+ 129825 : AAGAGAAAGCTCCGAATGCGAAAATGGCGCATCCGTGGCCCGAGCATTTGTATCCGTT : 129882
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5800 : AAGAGAAAGCTCCGAATGCGAAAATGGCGCATCCGTGGCCCGAGCATTTGTATCCGTT :   5857
+
+ 129883 : ACATGTTGTGATGGGTGCAGCAGGTGGAGATGCAAAGGCAGAGCAAATCCATACAAGT : 129940
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5858 : ACATGTTGTGATGGGTGCAGCAGGTGGAGATGCAAAGGCAGAGCAAATCCATACAAGT :   5915
+
+ 129941 : TGGCAACTTGGTACCTTGTCTTATTCTTCTTATAGCTTCACTTCTTCTCTTTGAAACA : 129998
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5916 : TGGCAACTTGGTACCTTGTCTTATTCTTCTTATAGCTTCACTTCTTCTCTTTGAAACA :   5973
+
+ 129999 : TTTCAATCTTCATCTCCTATACTTGTCTTTGATTAAGCTTTTGTGTGTGTGTGTTCAT : 130056
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   5974 : TTTCAATCTTCATCTCCTATACTTGTCTTTGATTAAGCTTTTGTGTGTGTGTGTTCAT :   6031
+
+ 130057 : GTCTCTTTAATTAATAATCCAAATCCTGTCTTGTATACGAATACAAATCCTCTATGTA : 130114
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6032 : GTCTCTTTAATTAATAATCCAAATCCTGTCTTGTATACGAATACAAATCCTCTATGTA :   6089
+
+ 130115 : CTATAATATATGAATGTCATGTGAATTTCAATAAATTGTGTTGTTTGTAATGTACGTA : 130172
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6090 : CTATAATATATGAATGTCATGTGAATTTCAATAAATTGTGTTGTTTGTAATGTACGTA :   6147
+
+ 130173 : GAACCATTTGTCATATCTCTGTGTTAGCTTTGTGATATCTACGTTTTTAACATAAACC : 130230
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6148 : GAACCATTTGTCATATCTCTGTGTTAGCTTTGTGATATCTACGTTTTTAACATAAACC :   6205
+
+ 130231 : CTTAAATCATCAACCTCCATGGCCGAACAAATCATATTTCCATCAGATGTTTTGAATA : 130288
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6206 : CTTAAATCATCAACCTCCATGGCCGAACAAATCATATTTCCATCAGATGTTTTGAATA :   6263
+
+ 130289 : CTATCTTGTATCGACACCATCGTTGGCATTTGTTGCAAATAGGTCGACTGAGACGATT : 130346
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6264 : CTATCTTGTATCGACACCATCGTTGGCATTTGTTGCAAATAGGTCGACTGAGACGATT :   6321
+
+ 130347 : GTTAGGAATACTCAACCGTATGGACACAGTCTTCGATAATTGTTCTTGATTTTATGTA : 130404
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6322 : GTTAGGAATACTCAACCGTATGGACACAGTCTTCGATAATTGTTCTTGATTTTATGTA :   6379
+
+ 130405 : GGGATCCTTTCCTAGTATACATTTAATATGGAATGTGACTCCACACTCATAGCATGCA : 130462
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   6380 : GGGATCCTTTCCTAGTATACATTTAATATGGAATGTGACTCCACACTCATAGCATGCA :   6437
+
+ 130463 : TAGTAGCCTTTTCTTCGGATCTGTTG : 130488
+          ||||||||||||||||||||||||||
+   6438 : TAGTAGCCTTTTCTTCGGATCTGTTG :   6463
+
+vulgar: AL161540.2 124024 130488 + contig_25 0 6463 + 32303 M 1526 1526 G 1 0 M 4937 4937
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    1       6463    32303   +       .       gene_id 1 ; sequence AL161540.2 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+contig_25       exonerate:est2genome    exon    1       6463    .       +       .       insertions 0 ; deletions 1 ; identity 100.00 ; similarity 100.00
+contig_25       exonerate:est2genome    similarity      1       6463    32303   +       .       alignment_id 1 ; Query AL161540.2 ; Align 1 124025 1526 ; Align 1527 125552 4937
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: AL161540.2 Arabidopsis thaliana DNA chromosome 4, contig fragment No. 40
+        Target: contig_25 [revcomp]
+         Model: est2genome
+     Raw score: 523
+   Query range: 123757 -> 124521
+  Target range: 808 -> 37
+
+ 123758 : GCAAATGTCAGCTCTGTTTTGAT--GTGAAAGCCATCAACATCATGTAATTGATTAGC : 123813
+          | ||||||||   || ||| |||  ||||  ||  |  ||    |||| ||  |  ||
+    808 : GGAAATGTCA-AACT-TTTGGATTGGTGAGGGCTTTTTAC----TGTATTTTCTCGGC :    757
+
+ 123814 : ATATTACATATAGAATATGAGA---TACCCACATATAT-A-TAGAAAAAATGACGGTA : 123866
+               | | | |||  | | ||    |  || |  | | |   ||||| |  |  | |
+    756 : CACCCAGAGAGAGACAAAGGGAGGGAAGGCAAAATTCTGACGTGAAAAGAGCAAAGCA :    699
+
+ 123867 : AAGATTAA-AAAAAAAAGTATACTTGATTTGTCATAATAA--GAATAAGCATGTATC- : 123921
+          ||||  || |  ||  ||   | | |    |  | |   |  ||  || || | | | 
+    698 : AAGAAGAACACGAAGCAGGCGAGTGGGGAAGCAAAAGCGAGTGAGGAACCAAGGAGCG :    641
+
+ 123922 : TCATATGTACAAAAATAGATTTAATGTTATTTA-TTTTAATATTCTTGTATTTTTTGT : 123977
+          | | | |   |||  |||  ||  | ||    | |||||    ||||| ||| | | |
+    640 : TGAGAGGAGAAAATCTAGGGTTCTTTTTGGGAATTTTTAGGGATCTTGGATTATGT-T :    584
+
+ 123978 : TTTATTTGAACTTAT---AATAAAAAAAAAACTGTAGATATTAATAGTTATGTAAAAA : 124032
+          |||||||  | || |   | |      ||| || |   || ||    |||   |  ||
+    583 : TTTATTTTTATTTTTTTCATTTGTTGTAAATCTCT---TACTAGCCTTTACTAATTAA :    529
+
+ 124033 : TCATAAA----AATAGAT--GTAAAAATCATATTAAAAGTTATGATAAATTTAGTTTA : 124084
+           ||||||      | |||  |||| |  | | |  || |  || || |  || |||| 
+    528 : ACATAAAGGCTTTTTGATTGGTAACA--CGTGT--AATGACATAATGACGTTTGTTTT :    475
+
+ 124085 : CTACATAACTCTTTTGAAAAAT-GTGGAAAAATTATAGTAAACTGTATGAAAAGAA-- : 124140
+          | ||   | | ||||  | ||| | |   | |||   ||     || ||| ||| |  
+    474 : CGACGCGATTTTTTTTCATAATCGCGTCTATATTTACGTTTGGCGTGTGAGAAGCATT :    417
+
+ 124141 : ---GA-TTAT-CATACAGTTAAAATTAAAATCTTTTAGAA-CATGTGTAGTGGTGGTT : 124191
+             || ||||  || |    |||| |  | | ||||| || |||  | | | ||| ||
+    416 : GCTGATTTATGTATTCTTAGAAAAATTGATTATTTTAAAAGCATCAGCA-TTGTGATT :    360
+
+ 124192 : TCTAACCAAAGTTTTTAATTTAC--TAA-AGTAAT--AATAATAAAAAAAA--TATTT : 124242
+          | | |||||| | | |    |||  ||| | ||||  ||||||||| || |  | |||
+    359 : TTTTACCAAAATCTCTCGCCTACATTAATAATAATAAAATAATAAACAATATTTTTTT :    302
+
+ 124243 : AATTTGAAGAGTTTTTTAAAATAGTTTTTTCAAATCTTTTAAATTAAAAACTTTCTCA : 124300
+          ||||  || | ||| | | || |  | |   |||  |||||| ||||||  |||   |
+    301 : AATTAAAACAATTTCTAAGAAAA--TATGAGAAAGTTTTTAATTTAAAAGATTTGAAA :    246
+
+ 124301 : TA--TTTTCTTAGAAATTGTTTTAATTAAAAAAATATTGTTTATTATTTTATTATTAT : 124356
+           |  | || | | ||| | ||  ||||  ||| || || |||||||  |||||| | |
+    245 : AAACTATTTTAAAAAACTCTTCAAATT--AAATATTTTTTTTATTA--TTATTACT-T :    193
+
+ 124357 : TAATGTAGGCGAGAGATTTTGGTAAAAAATCA-CAATGCTGATGCTTTTAAAATAATC : 124413
+          ||  |||    | | | |||||| | ||| || || | |  ||| || ||||| | | 
+    192 : TA--GTAAATTAAAAACTTTGGTTAGAAACCACCACTACACATG-TTCTAAAAGATTT :    138
+
+ 124414 : AATTTTTCTAAGAATACATAAATCAGCAATGCTTCTCACACGCCAAACGTAAATATAG : 124471
+           | ||||    | ||  || ||||     | ||| ||| ||     ||   ||| |  
+    137 : TAATTTTAACTGTAT-GAT-AATC-----TTCTTTTCATACAGTTTACTATAATTTTT :     87
+
+ 124472 : ACGCGATTATGAAAAAAAATCGCGTCGAAAACAAACGTCATTATGTCATT : 124521
+           | | ||| |  |||| | |   || | |||| ||  | || ||  | ||
+     86 : CCAC-ATTTTTCAAAAGAGTTATGTAGTAAACTAAATTTATCATAACTTT :     38
+
+vulgar: AL161540.2 123757 124521 + contig_25 808 37 - 523 M 10 10 G 1 0 M 4 4 G 1 0 M 7 7 G 0 2 M 15 15 G 4 0 M 36 36 G 0 3 M 13 13 G 0 1 M 1 1 G 0 1 M 25 25 G 0 1 M 31 31 G 0 2 M 15 15 G 0 1 M 33 33 G 0 1 M 22 22 G 1 0 M 16 16 G 0 3 M 17 17 G 3 0 M 27 27 G 0 4 M 7 7 G 0 2 M 6 6 G 2 0 M 5 5 G 2 0 M 45 45 G 0 1 M 33 33 G 0 5 M 2 2 G 0 1 M 4 4 G 0 1 M 29 29 G 0 1 M 8 8 G 1 0 M 31 31 G 0 2 M 3 3 G 0 1 M 6 6 G 0 2 M 14 14 G 0 2 M 28 28 G 2 0 M 35 35 G 0 2 M 23 23 G 2 0 M 17 17 G 2 0 M 8 8 G 1 0 M 3 3 G 2 0 M 28 28 G 0 1 M 11 11 G 1 0 M 28 28 G 1 0 M 3 3 G 1 0 M 4 4 G 5 0 M 33 33 G 1 0 M 45 45
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2025-04-23
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+contig_25       exonerate:est2genome    gene    38      808     523     -       .       gene_id 1 ; sequence AL161540.2 ; gene_orientation . ; identity 61.70 ; similarity 61.70
+contig_25       exonerate:est2genome    exon    38      808     .       -       .       insertions 40 ; deletions 33 ; identity 61.70 ; similarity 61.70
+contig_25       exonerate:est2genome    similarity      38      808     523     -       .       alignment_id 1 ; Query AL161540.2 ; Align 809 123758 10 ; Align 799 123769 4 ; Align 795 123774 7 ; Align 786 123781 15 ; Align 771 123800 36 ; Align 732 123836 13 ; Align 718 123849 1 ; Align 716 123850 25 ; Align 690 123875 31 ; Align 657 123906 15 ; Align 641 123921 33 ; Align 607 123954 22 ; Align 585 123977 16 ; Align 566 123993 17 ; Align 549 124013 27 ; Align 518 124040 7 ; Align 509 124047 6 ; Align 503 124055 5 ; Align 498 124062 45 ; Align 452 124107 33 ; Align 414 124140 2 ; Align 411 124142 4 ; Align 406 124146 29 ; Align 376 124175 8 ; Align 368 124184 31 ; Align 335 124215 3 ; Align 331 124218 6 ; Align 323 124224 14 ; Align 307 124238 28 ; Align 279 124268 35 ; Align 242 124303 23 ; Align 219 124328 17 ; Align 202 124347 8 ; Align 194 124356 3 ; Align 191 124361 28 ; Align 162 124389 11 ; Align 151 124401 28 ; Align 123 124430 3 ; Align 120 124434 4 ; Align 116 124443 33 ; Align 83 124477 45
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> exonerate -m est2genome  --showtargetgff -q Arabidopsis_1blast.fa -t contig_25.fa -S F| egrep -w exon > contig_25.exonerate.gff
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> bedtools getfasta -fi contig_25.fa -bed contig_25.exonerate.gff > exonerate_contig25.fa
+index file contig_25.fa.fai not found, generating...
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> sed -e '2,$/>.*//' exonerate_contig25.fa |grep -v '^$' > exonerate_contig25_singleLine.fa
+sed: -e expression #1, char 4: unknown command: `/'
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> sed -e '2,$s/>.*//' exonerate_FOXF2.fa |grep -v '^$' >
+bash: syntax error near unexpected token `newline'
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> sed -e '2,$s/>.*//' exonerate_contig25.fa |grep -v '^$' > exonerate_contig25_singleLine.fa 
+(base) user@vbox:~/compartidos/Compartido/biomol/final project> 
