@@ -1,9 +1,11 @@
 from Bio import SeqIO
 import sys
 
+
 # Transcription: T → U
 def transcribe(seq):
     return seq.upper().replace("T", "U")
+
 
 # Translation using a manual codon table (RNA codons)
 def translate(rna_seq):
@@ -26,6 +28,7 @@ def translate(rna_seq):
         "UGG" : "W", "CGG" : "R", "AGG" : "R", "GGG" : "G"
     }
 
+
     protein = ""
     rna_seq = rna_seq.upper()
     for i in range(0, len(rna_seq) - 2, 3):
@@ -34,13 +37,16 @@ def translate(rna_seq):
             protein += codon_table.get(codon, "X")  # X = unknown codon
     return protein
 
+
 # === MAIN EXECUTION ===
 if len(sys.argv) != 3:
     print("Usage: python dna_to_protein_custom.py input.fasta output.fasta")
     sys.exit(1)
 
+
 input_file = sys.argv[1]
 output_file = sys.argv[2]
+
 
 with open(output_file, 'w') as out:
     for record in SeqIO.parse(input_file, "fasta"):
