@@ -1,4 +1,4 @@
-# 🧬 Homology-Based Gene Prediction Pipeline
+# 🧬 Homology-Based Gene Prediction Code
 
 This repository contains a full pipeline for performing **gene prediction** based on **homology to known protein sequences**, particularly across species within the *Arabidopsis* genus. The goal is to identify **protein-coding genes (exons)** in an unannotated genomic DNA sequence using both **sequence alignment tools** and **biological inference**.
 
