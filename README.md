@@ -54,7 +54,9 @@ This pipeline integrates a variety of established bioinformatics tools:
 ---
 
 ## 🧪 Output
-pred_proteins_exonerate.fa: Protein sequence predicted from exon alignment
+cds_comparison.fa : Combined file where we have the predicted CDS from each method. Crucial analysis in their comparison after enterin this file in T-Coffee (ab_initio: 2 proteins, 2 CDS; homology-based: 1 protein, 1 CDS - from all 7 exonic regions in all_exons.fa)
+
+pred_proteins_exonerate.fa: Protein sequence predicted from all exon regions alignment
 
 comparison_all.fa: Combined file with all predicted proteins (including those obtained from ab-initio gene prediction mehod -> ready for T-Coffee)
 
