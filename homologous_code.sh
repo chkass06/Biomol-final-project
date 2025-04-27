@@ -12,13 +12,15 @@ python3 dna2protein.py contig_25.fa translated_nucleotide.fa
 # Run Exonerate
 echo "[INFO] Running Exonerate for exon prediction..."
 exonerate -m p2g --showtargetgff -q Arabidopsis_suecica_prot.fa.txt -t contig_25.fa -S F | \
-egrep -w exon > pred_proteins_exonerate.gff
+egrep -w exon > pred_exons_exonerate.gff
 
 # Convert to BED and extract exons
-echo "[INFO] Extracting exon regions..."
-awk '$3 == "exon" {print $1"\t"($4-1)"\t"$5"\texon\t.\t"$7}' pred_proteins_exonerate.gff > prediction.bed
-bedtools getfasta -fi contig_25.fa -bed prediction.bed -s -name > exons.fa
-sed -e '2,$s/>.*//' exons.fa | grep -v '^$' > cds_exonerate.txt
+echo "[INFO] Extracting all exon regions..."
+awk '$3 == "exon" {print $1"\t"($4-1)"\t"$5"\texon\t.\t"$7}' pred_exons_exonerate.gff > all_exons.bed
+bedtools getfasta -fi contig_25.fa -bed all_exons.bed -s -name >  all_exons.fa
+#all_exons.fa is our predicted gene sequence
+sed -e '2,$s/>.*//'  all_exons.fa | grep -v '^$' > cds_exonerate.txt
+#at this point you can compare CDS sequence of both methods
 
 # Translate exons to protein
 echo "[INFO] Translating predicted exons..."
