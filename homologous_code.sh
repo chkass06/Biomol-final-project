@@ -22,6 +22,8 @@ bedtools getfasta -fi contig_25.fa -bed all_exons.bed -s -name >  all_exons.fa
 sed -e '2,$s/>.*//'  all_exons.fa | grep -v '^$' > cds_exonerate.txt
 #at this point you can compare CDS sequence of both methods
 
+cat cds1_abinitio.fa.txt cds2_abinitio.fa.txt cds_exonerate.txt > cds_comparison.fa
+
 # Translate exons to protein
 echo "[INFO] Translating predicted exons..."
 python3 dna2protein.py cds_exonerate.txt pred_protein_exonerate.fa
