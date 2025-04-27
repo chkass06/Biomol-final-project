@@ -46,10 +46,10 @@ This pipeline integrates a variety of established bioinformatics tools:
 1. **Translate DNA to protein** using a custom `dna2protein.py` script. To ensure the species we're working with as we'll select an homologous (specie) to compare.
 2. **Run BLASTX and BLAST(protein-protein)** to determine the closest species/protein match.
 3. **Use known protein** from the best match (*Arabidopsis suecica*) as a reference.
-4. **Align protein to DNA** using `Exonerate` to predict exon regions. 
-5. **Extract exon sequences** and re-translate to get predicted proteins.
-6. **Combine predictions** from Exonerate and ab initio tools.
-7. **Compare all results** using `T-Coffee` to assess reliability.
+4. **Align protein to DNA** using `Exonerate` to predict exon regions.
+6. **Extract exon sequences** -> CDS and re-translate to get predicted proteins, you can also compare both ab initio obtained CDS and the one obtained using this method. (important)
+7. **Combine predictions** from Exonerate and ab initio tools.
+8. **Compare all results** using `T-Coffee` to assess reliability.
 
 ---
 
