@@ -11,7 +11,7 @@ python3 dna2protein.py contig_25.fa translated_nucleotide.fa
 
 # Run Exonerate
 echo "[INFO] Running Exonerate for exon prediction..."
-exonerate -m p2g --showtargetgff -q Arabidopsis_suecica_prot.fa.txt -t contig_25.fa -S F | \
+exonerate -m p2g --showtargetgff -q Arabidopsis_thaliana_prot.fa.txt -t contig_25.fa -S F | \
 egrep -w exon > pred_exons_exonerate.gff
 
 # Convert to BED and extract exons
