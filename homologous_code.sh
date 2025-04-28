@@ -1,4 +1,11 @@
 #!/bin/bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh #install conda
+bash Miniconda3-latest-Linux-x86_64.sh -b
+source ~/.bashrc #re-load your terminal
+conda create -y -n biomol python=3.12.9 #create environment
+conda activate biomol 
+conda install -y -c conda-forge biopython #install biopython (python scrpit requires it)
+conda install -y -c bioconda exonerate bedtools  #install exonerate and bedtools
 
 # Setup Conda environment
 echo "[INFO] Creating Conda environment..."
