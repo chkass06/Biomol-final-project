@@ -40,7 +40,7 @@ def translate(rna_seq):
 
 # === MAIN EXECUTION ===
 if len(sys.argv) != 3:
-    print("Usage: python dna_to_protein_custom.py input.fasta output.fasta")
+    print("Usage: python3 dna2prot.py input.fasta output.fasta")
     sys.exit(1)
 
 
